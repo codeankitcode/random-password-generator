@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background-color: rgb(20, 20, 50);
+    max-width: 500px;
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.header{
+    border-bottom: 1px solid rgb(76, 72, 10);
+    
+}
+
+h1, p{
+    color: #fff;
+    /* margin: 0; */
+}
+
+.green{
+    color: rgb(82, 239, 82);
+}
+
+.btn{
+    margin-bottom: 20px;
+}
+
+
