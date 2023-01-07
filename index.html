@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Password Generator</title>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>Generate a <br><span class="green">random password</span></h1>
+        <header class="header">
+            <h1><span class="start">Generate a</span><br><span class="green">random password</span></h1>
             <p>Never use an insecure password again.</p>
             <button class="btn" id="btn-el">Generate passwords</button>
+        </header>
+        <div class="pass-box">  
+            <p class="pass-para" id="password-one"></p>
+            <p class="pass-para" id="password-two"></p>
         </div>
-        
-        <p class="pass-para" id="password-one"></p>
-        <p class="pass-para" id="password-two"></p>
+        <!-- <button class="copy-btn" id="copy-btn-one">Copy to clipborard</button>
+        <button class="copy-btn" id="copy-btn-two">Copy to clipborard</button> -->
     </div>
     <script src="script.js"></script>
 </body>
