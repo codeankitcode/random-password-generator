@@ -9,12 +9,18 @@ const btnEl = document.querySelector("#btn-el")
 
 
 btnEl.addEventListener("click", function(){
+    let firstPass = ""
+    let secondPass = ""
     for(let i = 0; i < 15; i++){
+
         let passOne = Math.floor(Math.random() * characters.length)
         let passTwo = Math.floor(Math.random() * characters.length)
-        passwordOneEl.textContent += characters[passOne]
-        passwordTwoEl.textContent += characters[passTwo]
+        firstPass += characters[passOne]
+        secondPass += characters[passTwo]
     }
+    passwordOneEl.textContent = firstPass
+    passwordTwoEl.textContent = secondPass
+
 })
 
 // btnOne.addEventListener("click", function(){
@@ -24,4 +30,4 @@ btnEl.addEventListener("click", function(){
 // })
 
 
-console.log(btnTwo)
+// console.log(btnTwo)
